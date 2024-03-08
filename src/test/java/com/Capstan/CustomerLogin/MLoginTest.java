@@ -23,11 +23,11 @@ public class MLoginTest extends base{
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    // System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
-    //driver = new ChromeDriver();
+    System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+    driver = new ChromeDriver();
 
-    System.setProperty("webdriver.firefox.driver", "D:\\Selenium\\geckodriver-v0.34.0-win32\\geckodriver.exe");
-    driver = new FirefoxDriver();
+    // System.setProperty("webdriver.firefox.driver", "D:\\Selenium\\geckodriver-v0.34.0-win32\\geckodriver.exe");
+    // driver = new FirefoxDriver();
 
     baseUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
