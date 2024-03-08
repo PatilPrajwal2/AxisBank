@@ -23,7 +23,7 @@ public class MLoginTest extends base{
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    // System.setProperty("webdriver.chrome.driver", "C:\\pro\\chromedriver-win32 (1)\\chromedriver-win32\\chromedriver.exe");
+    // System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
     //driver = new ChromeDriver();
 
     System.setProperty("webdriver.firefox.driver", "D:\\Selenium\\geckodriver-v0.34.0-win32\\geckodriver.exe");
